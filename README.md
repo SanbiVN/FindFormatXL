@@ -10,8 +10,8 @@ với Hàm FindFormat
 	
 ## Hướng dẫn sử dụng hàm FindFormat:				
 - Hàm: 	=FindFormat(Finds, FindObject, Arguments,...)		
--	Cách viết hàm nhanh, gõ vào ô chuỗi =FindFormat và ấn tổ hợp phím Ctrl+Shift+A
--		
+- Cách viết hàm nhanh, gõ vào ô chuỗi =FindFormat và ấn tổ hợp phím Ctrl+Shift+A
+
 ## Tham số :			
 
 | Vị trí | Tham số    | Kiểu                                                    | Diễn giải                                                                                                                                |

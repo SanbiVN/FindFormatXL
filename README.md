@@ -1,8 +1,8 @@
 # FindFormatXL
  Tìm kiếm và định dạng chuỗi trong Ô và đối tượng Excel
 
-[Nhấn tải FindFormatXL](https://github.com/SanbiVN/FindFormatXL/releases/download/FindFormat/FindFormatXL.xlsm)\
-[![Lượt tải](https://img.shields.io/github/downloads/SanbiVN/FindFormatXL/total.svg)](https://github.com/SanbiVN/FindFormatXL/releases/download/FindFormat/FindFormatXL.xlsm) 
+[Nhấn tải FindFormatXL](https://github.com/SanbiVN/FindFormatXL/releases/download/findformat/FindFormatXL.xlsm)\
+[![Lượt tải](https://img.shields.io/github/downloads/SanbiVN/FindFormatXL/total.svg)](https://github.com/SanbiVN/FindFormatXL/releases/download/findformat/FindFormatXL.xlsm) 
 
 ## HÀM TÌM KIẾM ĐỊNH DẠNG CHUỖI TRONG Ô, CHÚ THÍCH VÀ HÌNH DẠNG EXCEL				
 với Hàm FindFormat				

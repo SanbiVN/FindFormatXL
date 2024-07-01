@@ -1,24 +1,27 @@
 # FindFormatXL
  Tìm kiếm và định dạng chuỗi trong Ô và đối tượng Excel
 
+[Nhấn tải FindFormatXL](https://github.com/SanbiVN/FindFormatXL/releases/download/FindFormat/FindFormatXL.xlsm)\
+[![Lượt tải](https://img.shields.io/github/downloads/SanbiVN/FindFormatXL/total.svg)](https://github.com/SanbiVN/FindFormatXL/releases/download/FindFormat/FindFormatXL.xlsm) 
 
+## HÀM TÌM KIẾM ĐỊNH DẠNG CHUỖI TRONG Ô, CHÚ THÍCH VÀ HÌNH DẠNG EXCEL				
+với Hàm FindFormat				
+- hàm tìm kiếm định dạng chuỗi trong ô, chú thích và hình dạng excel
+	
+## Hướng dẫn sử dụng hàm FindFormat:				
+- Hàm: 	=FindFormat(Finds, FindObject, Arguments,...)		
+-	Cách viết hàm nhanh, gõ vào ô chuỗi =FindFormat và ấn tổ hợp phím Ctrl+Shift+A
+-		
+## Tham số :			
 
-	# HÀM TÌM KIẾM ĐỊNH DẠNG CHUỖI TRONG Ô, CHÚ THÍCH VÀ HÌNH DẠNG EXCEL				
-	với Hàm FindFormat				
-			- hàm tìm kiếm định dạng chuỗi trong ô, chú thích và hình dạng excel		
-	## Hướng dẫn sử dụng hàm FindFormat:				
-		- Hàm: 	=FindFormat(Finds, FindObject, Arguments,...)		
-		-	Cách viết hàm nhanh, gõ vào ô chuỗi =FindFormat và ấn tổ hợp phím Ctrl+Shift+A		
-		## Tham số :			
 | Vị trí | Tham số    | Kiểu                                                    | Diễn giải                                                                                                                                |
 |--------|------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | 1      | Finds      | Chuỗi/mảng chuỗi/vùng ô                                 | Nhập chuỗi   "tìm a", mảng {"tìm a";"tìm b"}, vùng ô A1:A100                                                                             |
 | 2      | FindObject | Chuỗi/mảng   chuỗi/vùng ô      hoặc hàm đối số bên dưới | Nếu nhập là ô thì   tìm trong ô, nếu nhập là chuỗi và mảng thì tìm trong các đối tượng hình dạng   (tự động hiểu hình dạng là chú thích) |
 | 3      | Arguments  | Các hàm đối số bổ trợ                                   | Những màu tô cho   chuỗi đã tìm thấy                                                                                                     |
 					
-		-	Gõ hàm FindFormat_HuongDan() để hiển thị hướng dẫn này trong trang tính của bạn		
-					
-		- Các hàm dưới đây nhầm đặt giá trị để thực hiện tìm kiếm, và chúng phải được gõ trong hàm FindFormat			
+- Gõ hàm FindFormat_HuongDan() để hiển thị hướng dẫn này trong trang tính của bạn		
+- Các hàm dưới đây nhầm đặt giá trị để thực hiện tìm kiếm, và chúng phải được gõ trong hàm FindFormat			
 					
 | Các hàm nhập vào đối số FindObject | Kiểu                                       |   |
 |------------------------------------|--------------------------------------------|---|
@@ -48,13 +51,12 @@
 | fff_Subscript()                    | Đổi chỉ số dưới                                                                                 |   |
 | fff_Target(target)                 | Đặt ô sẽ sao chép đến và tìm định dạng                                                          |   |
 					
-					Nhập màu sắc
-					Ví dụ với số: fff_Colors(255, 65536, 16777215)
-					Ví dụ với mã: fff_Colors("#FFFFFF", "FFFFF", "FF")
-					Ví dụ với tên: fff_Colors("yellow", "blue")
+## Nhập màu sắc
+- Ví dụ với số: fff_Colors(255, 65536, 16777215)
+- Ví dụ với mã: fff_Colors("#FFFFFF", "FFFFF", "FF")
+- Ví dụ với tên: fff_Colors("yellow", "blue")
 					
 | yellow, ye, yl |
-|----------------|
 | red, re        |
 | blue           |
 | green, gr      |

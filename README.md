@@ -23,33 +23,33 @@ với Hàm FindFormat
 - Gõ hàm FindFormat_HuongDan() để hiển thị hướng dẫn này trong trang tính của bạn		
 - Các hàm dưới đây nhầm đặt giá trị để thực hiện tìm kiếm, và chúng phải được gõ trong hàm FindFormat			
 					
-| Các hàm nhập vào đối số FindObject | Kiểu                                       |   |
-|------------------------------------|--------------------------------------------|---|
-| fff_FindRange(Cells)               | Tìm nhiều vùng ô                           |   |
-| fff_FindShape(Shapes)              | Tìm nhiều hình dạng                        |   |
-| fff_WorksheetRange                 | Tìm trong tất cả ô trang tính gõ hàm       |   |
-| fff_WorkbookRange                  | Tìm trong ô trên toàn Sổ làm việc          |   |
-| fff_WorksheetShapes                | Tìm trong hình dạng trên trang tính gõ hàm |   |
-| fff_WorkbookShapes                 | Tìm trong ô trên toàn Sổ làm việc          |   |
-| fff_WorksheetComments              | Tìm trong ghi chú trên trang tính gõ hàm   |   |
-| fff_WorkbookComments               | Tìm trong ghi chú trên toàn Sổ làm việc    |   |
+| Các hàm nhập vào đối số FindObject | Kiểu                                       |
+|------------------------------------|--------------------------------------------|
+| fff_FindRange(Cells)               | Tìm nhiều vùng ô                           |   
+| fff_FindShape(Shapes)              | Tìm nhiều hình dạng                        |   
+| fff_WorksheetRange                 | Tìm trong tất cả ô trang tính gõ hàm       |   
+| fff_WorkbookRange                  | Tìm trong ô trên toàn Sổ làm việc          |   
+| fff_WorksheetShapes                | Tìm trong hình dạng trên trang tính gõ hàm |  
+| fff_WorkbookShapes                 | Tìm trong ô trên toàn Sổ làm việc          |  
+| fff_WorksheetComments              | Tìm trong ghi chú trên trang tính gõ hàm   |  
+| fff_WorkbookComments               | Tìm trong ghi chú trên toàn Sổ làm việc    |  
 					
-| Các hàm nhập sau đối số FindObject | Kiểu                                                                                            |   |
-|------------------------------------|-------------------------------------------------------------------------------------------------|---|
-| fff_FindIndex(Index)               | thứ tự định dạng, ví dụ đặt là 3, nếu tổng lần tìm   được 5, chỉ có vị trí thứ 3 được định dạng |   |
-| fff_CompareMode()                  | Đặt tìm kiếm có phân biệt ký tự hoa và thường                                                   |   |
-| fff_Regex(groupIndex = -1)         | Sử dụng biểu thức chính quy để tìm kiếm, groupIndex   tương tự FindIndex                        |   |
-| fff_Colors(Colors())               | Đổi màu phông chữ,   Xem thêm hướng dẫn nhập màu sắc bên dưới                                   |   |
-| fff_DefaultColor(Color)            | Đặt màu phông mặt định, nếu không tìm thấy đặt lại màu   toàn bộ chuỗi                          |   |
-| fff_Name(FontName)                 | Đổi tên phông                                                                                   |   |
-| fff_Bold()                         | Đổi phông đậm                                                                                   |   |
-| fff_Size(FontSize)                 | Đổi kích thước phông                                                                            |   |
-| fff_Italic()                       | Đổi phông in nghiên                                                                             |   |
-| fff_StrikeThrough()                | Đổi gạch giữa                                                                                   |   |
-| fff_Underline(value = 2)           | Đổi gạch dưới                                                                                   |   |
-| fff_Superscript()                  | Đổi chỉ số trên                                                                                 |   |
-| fff_Subscript()                    | Đổi chỉ số dưới                                                                                 |   |
-| fff_Target(target)                 | Đặt ô sẽ sao chép đến và tìm định dạng                                                          |   |
+| Các hàm nhập sau đối số FindObject | Kiểu                                                                                            | 
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| fff_FindIndex(Index)               | thứ tự định dạng, ví dụ đặt là 3, nếu tổng lần tìm   được 5, chỉ có vị trí thứ 3 được định dạng |   
+| fff_CompareMode()                  | Đặt tìm kiếm có phân biệt ký tự hoa và thường                                                   |  
+| fff_Regex(groupIndex = -1)         | Sử dụng biểu thức chính quy để tìm kiếm, groupIndex   tương tự FindIndex                        |   
+| fff_Colors(Colors())               | Đổi màu phông chữ,   Xem thêm hướng dẫn nhập màu sắc bên dưới                                   |   
+| fff_DefaultColor(Color)            | Đặt màu phông mặt định, nếu không tìm thấy đặt lại màu   toàn bộ chuỗi                          |   
+| fff_Name(FontName)                 | Đổi tên phông                                                                                   |  
+| fff_Bold()                         | Đổi phông đậm                                                                                   |   
+| fff_Size(FontSize)                 | Đổi kích thước phông                                                                            |  
+| fff_Italic()                       | Đổi phông in nghiên                                                                             |  
+| fff_StrikeThrough()                | Đổi gạch giữa                                                                                   |  
+| fff_Underline(value = 2)           | Đổi gạch dưới                                                                                   |  
+| fff_Superscript()                  | Đổi chỉ số trên                                                                                 |
+| fff_Subscript()                    | Đổi chỉ số dưới                                                                                 | 
+| fff_Target(target)                 | Đặt ô sẽ sao chép đến và tìm định dạng                                                          |
 					
 ## Nhập màu sắc
 - Ví dụ với số: fff_Colors(255, 65536, 16777215)
@@ -74,9 +74,5 @@ với Hàm FindFormat
 | Brown, br      |
 | Beige, be      |
 
-
-		Lưu ý: Để sử dụng được Hàm FindFormat trong dự án mới, trong VBA hãy sao chép module modFindFormatFont	
-
-
-
-		Liên hệ Messenger: https://m.me/he.sanbi		
+Lưu ý: Để sử dụng được Hàm FindFormat trong dự án mới, trong VBA hãy sao chép module modFindFormatFont\
+Liên hệ Messenger: [https://m.me/he.sanbi](https://m.me/he.sanbi)

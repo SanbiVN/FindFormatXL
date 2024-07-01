@@ -55,7 +55,9 @@ với Hàm FindFormat
 - Ví dụ với số: fff_Colors(255, 65536, 16777215)
 - Ví dụ với mã: fff_Colors("#FFFFFF", "FFFFF", "FF")
 - Ví dụ với tên: fff_Colors("yellow", "blue")
-					
+
+| Tên màu sắc (en)|
+|---------------|
 | yellow, ye, yl |
 | red, re        |
 | blue           |
